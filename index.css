@@ -1,0 +1,41 @@
+@font-face {
+    font-family: scoreboard;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {   
+    background-color: #1B244A;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    width: 75px;
+}
+
+#home-score, #guest-score {
+    font-family: scoreboard;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 3px;
+    
+}
+
+
+.buttons button {
+    font-family: scoreboard;
+    font-size: 10px;
+    background-color: transparent;
+    color: #9AABD8;
+    border: solid 1px;
+    border-radius: 3px;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+}
